@@ -6,11 +6,9 @@ import {RiSettings3Fill} from "react-icons/ri"
 
 export default function SideNavs() {
   return (
-    <div className='text-black flex    space-y-14 flex-col justify-center fixed content-between '>
+    <div className='text-black flex  h-screen space-y-14 flex-col fixed content-between py-10'>
          <div>
-            <h5 className='flex flex-col'>
-              <span className='font-bold text-lg'>Payroll </span>
-            </h5>
+         
             
 
             <div className=' space-y-14 mt-9 flex flex-col justify-center items-center w-full'>
