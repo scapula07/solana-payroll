@@ -1,6 +1,6 @@
 import React from 'react'
 import {MdNotifications} from "react-icons/md"
-import ConnectWallet from '../ConnectWallet'
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui'
 
 export default function Header() {
   return (
@@ -21,7 +21,7 @@ export default function Header() {
                 <MdNotifications />
 
                 {/* <h5>Connect wallet</h5> */}
-                < ConnectWallet />
+                <  WalletMultiButton style={{"background-color":"rgb(96 165 250)"}}/>
  
             </div>
      
